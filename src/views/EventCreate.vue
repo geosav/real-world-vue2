@@ -2,9 +2,6 @@
   <h1>Event Create</h1>
 </template>
 
-<script>
-</script>
+<script></script>
 
-<style>
-
-</style>
+<style></style>
