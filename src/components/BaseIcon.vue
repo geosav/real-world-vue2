@@ -1,5 +1,8 @@
 <template>
-  <div class="icon-wrapper" v-html="svg"></div>
+  <div>
+    <div class="icon-wrapper" v-html="svg"></div>
+    <slot></slot>
+  </div>
 </template>
 
 <script>
@@ -32,6 +35,7 @@ export default {
 .icon-wrapper {
   display: inline-flex;
   align-items: center;
+  padding-right: 5px;
   color: rgba(0, 0, 0, 0.4);
   font-size: 1rem;
   font-weight: 600;
